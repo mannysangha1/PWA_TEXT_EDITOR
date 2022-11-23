@@ -26,6 +26,7 @@ export const putDb = async (content) => {
 export const getDb = async () => {
   const jatedb = await openDB('jate', 1);
   const tx = jatedb.transaction('jate', 'readonly');
+  const store = tx.objectStore('jate');
 }
 
 initdb();
