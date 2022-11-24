@@ -26,12 +26,12 @@ module.exports = () => {
                     short_name: 'JATE',
                     description: 'Just Another Text Editor',
                     display: 'standalone',
-                    background_color: '',
-                    theme_color: '',
-                    start_url: '',
-                    publicPath: '',
-                    fingerprints: '',
-                    inject: '',
+                    background_color: '#1e1e1e',
+                    theme_color: '#1e1e1e',
+                    start_url: '/',
+                    publicPath: '/',
+                    fingerprints: 'false',
+                    inject: 'true',
                     icons: [
                       {
                         src: path.resolve('src/images/logo.png'),
